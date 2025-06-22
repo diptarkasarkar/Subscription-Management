@@ -67,23 +67,22 @@ The server will start running on `http://localhost:5500`
 
 ## 🔐 API Endpoints
 
----
-## 🔐 Auth Routes
+### 🔐 Auth Routes
 
 * `POST /api/v1/auth/signup` – Register new user
 * `POST /api/v1/auth/signin` – Login and receive JWT token
 
----
 
-## 👤 User Routes
+
+### 👤 User Routes
 
 * `GET /api/v1/users/` – (Admin Only) Get All Users
 * `GET /api/v1/users/:id` – Get User detail
 * `PUT /api/v1/users/update/:id` – Update username/email/password
 * `DELETE /api/v1/users/delete/:id` – (Admin Only) Delete a User
----
 
-## 📦 Subscription Routes
+
+### 📦 Subscription Routes
 
 * `POST /api/v1/subscriptions/` – Create new subscription
 * `GET /api/v1/subscriptions/user/:id` – View own subscriptions
