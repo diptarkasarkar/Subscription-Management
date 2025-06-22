@@ -35,7 +35,7 @@ A secure and scalable backend-only Subscription Management System built with Jav
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/diptarkasarkar/Simple-NodeJS-Auth.git
+git clone https://github.com/diptarkasarkar/Subscription-Management-API.git
 ```
 
 2. Install dependencies:
