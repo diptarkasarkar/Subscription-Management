@@ -8,7 +8,7 @@ userRouter.get('/', authorize, isAdmin, getUsers);
 
 userRouter.get('/:id', authorize, getUser);
 
-userRouter.put('/update/:id', authorize, isAdmin, updateUser);
+userRouter.put('/update/:id', authorize, updateUser);
 
 userRouter.delete('/delete/:id', authorize, isAdmin, deleteUser);
 
